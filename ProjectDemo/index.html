@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="10.png" alt="Your Profile Photo" class="profile-photo">
+            <div class="bio-container">
+                <p>In Bio</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#github">GitHub</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="darpan pdf.pdf" class="resume-btn">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="welcome-message">
+            <p>Welcome to my world.</p>
+            <p>Hi, I’m <span class="highlight">Darpan Chauhan</span>,</p>
+            <p id="roleDisplay" class="role-text"></p>
+        </div>
+        <div class="social-media-container">
+            <div class="social-media">
+                <a href="https://www.instagram.com" target="_blank"><img src="insta.jpeg" alt="Instagram"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="fb.jpeg" alt="Facebook"></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="link.jpeg" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="side-image-container">
+            <div class="square-background"></div>
+            <img src="1.png" alt="Side Graphic" class="side-image">
+        </div>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">What I Do</h2>
+            <div class="skills-grid">
+                <div class="skill-box">
+                    <h3>Web Development</h3>
+                    <p>Building responsive and interactive websites using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Java-Development</h3>
+                    <p>Developed and maintained scalable Java applications, ensuring high performance.
+                    </p>
+                </div>
+                <div class="skill-box">
+                    <h3>Database managment</h3>
+                    <p>Designed and optimized database schemas, ensuring efficient data retrieval and integrity using SQL technologies.
+                    </p>
+                </div>
+                <div class="skill-box">
+                    <h3>UI/UX Design</h3>
+                    <p>Designing user-friendly interfaces with a focus on user experience and accessibility.</p>
+                </div>
+                <div class="skill-box">
+                    <h3>Machine learning</h3>
+                    <p>Developed and deployed machine learning models for predictive analytics and data-driven decision making.
+                    </p>
+                </div>
+                <div class="skill-box">
+                    <h3>Data Visualization</h3>
+                    <p>Creating insightful data visualizations using power BI.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Projects I Have</h2>
+            
+            <div class="project-container">
+                <div class="tree-node">
+                    <div class="project-square">
+                        <img src="download.png" alt="Description of the image" class="project-image">
+                        <h3></h3>
+                    </div>
+                    <div class="project-description">
+                        <p>Developed a Sudoku solver utilizing backtracking algorithms inspired by the N-Queens problem, achieving efficient and accurate solutions through recursive exploration and constraint-based optimization.</p>
+                    </div>
+                </div>
+                <div class="tree-node">
+                    <div class="project-square">
+                        
+                        <h3>ATM interface</h3>
+                    </div>
+                    <div class="project-description">
+                        <p>Developed a comprehensive ATM interface in Java, implementing secure transaction handling, user authentication, and real-time balance updates to enhance user experience and system reliability.
+
+
+
+
+
+                         </p>
+                    </div>
+                </div>
+                <div class="tree-node">
+                    <div class="project-square">
+                        
+                        <h3>Voilence Detection</h3>
+                    </div>
+                    <div class="project-description">
+                        <p>Designed and implemented a violence detection system using Convolutional Neural Networks (CNN) and Long Short-Term Memory (LSTM) networks, enabling accurate identification of violent behavior in video footage for enhanced security monitoring.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section id="about" class="about-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-photo">
+                    <img src="5.png" alt="About Me Photo">
+                </div>
+                <div class="about-text">
+                    <div class="about-block">
+                        <h3>Introduction</h3>
+                        <p>Hi, I'm Darpan Chauhan, an aspiring software engineer as a fresher.</p>
+                    </div>
+                    <div class="about-block">
+                        <h3>Background</h3>
+                        <p>I graduated from Lovely Professional University with a degree in Btech CSE.</p>
+                    </div>
+                    <div class="about-block">
+                        <h3>Skills and Expertise</h3>
+                        <p>My expertise includes Java, web development, and database management. I am passionate about Java development.</p>
+                    </div>
+                    <div class="about-block">
+                        <h3>Achievements</h3>
+                        <p>4 star in Java Hackathon</p>
+                    </div>
+                    <div class="about-block">
+                        <h3>Get in Touch</h3>
+                        <p>If you would like to connect or learn more about my work, please <a href="#contact" class="contact-button">Contact</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact-section">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Email: darpan.chauhan19@gmail.com</p>
+                    <p>Phone: 7302571695</p>
+                    <p>Location: Aligarh, India</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Contact Form</h3>
+                    <form action="send_mail.php" method="POST">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                        
+                        <button type="submit" class="contact-button">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer-section">
+            <div class="footer-container">
+                <div class="footer-info">
+                    <h4>Contact Me</h4>
+                    <p>Email: <a href="mailto:darpan.chauhan19@gmail.com">darpan.chauhan19@gmail.com</a></p>
+                    <p>Phone: <a href="tel:+917302571695">+91 7302571695</a></p>
+                </div>
+                
+                <div class="footer-social">
+                    <h4>Follow Me</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com" target="_blank" class="social-icon">
+                            <img src="insta.jpeg" alt="Instagram">
+                        </a>
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                            <img src="fb.jpeg" alt="Facebook">
+                        </a>
+                        <a href="https://www.linkedin.com" target="_blank" class="social-icon">
+                            <img src="link.jpeg" alt="LinkedIn">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Darpan Chauhan. All Rights Reserved.</p>
+            </div>
+        </footer>
+        
+        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
